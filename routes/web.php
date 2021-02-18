@@ -12,7 +12,4 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/addition', function () {
-    return 1 + 2.;
-});
+Route::get('/displaythesum', 'MyfirstController@index');
